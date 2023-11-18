@@ -7,30 +7,32 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
-  <div class="container">
-      
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid"  style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px; width:100%; border-top: 10px solid skyblue;">
-    <a class="navbar-brand" href="#">About</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-       
-        <li class="nav-item">
-          <a class="nav-link" href="doctors.php">Admissions</a>
-        </li>
-             <li class="nav-item">
-          <a class="nav-link" href="patients.php">Academics</a>
-        </li>
-             <li class="nav-item">
-          <a class="nav-link" href="doctors-with-patients.php">Activities</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Classes</a>
-        </li>
-      </ul>
+    <div class="container" style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px; width:100%; border-top: 10px solid skyblue;">
+
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px; width:80%;">
+        <div class="container-fluid" style="border-top: 10px solid skyblue;">
+          <a class="navbar-brand" href="#">About</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="doctors.php">Admissions</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="patients.php">Academics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="doctors-with-patients.php">Activities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Classes</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
-  </div>
-</nav>
+  </body>
+</html>
