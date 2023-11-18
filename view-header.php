@@ -8,7 +8,8 @@
     <style>
         /* Add custom styles for navbar elements spacing */
         .navbar-nav .nav-item {
-            margin-right: 10px; /* Adjust the margin as needed */
+            margin-right: 100px; /* Adjust the margin as needed */
+            margin-left: 100px
             
         }
     </style>
