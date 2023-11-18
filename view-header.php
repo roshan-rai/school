@@ -9,7 +9,7 @@
 <body>
     <div class="container">
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">About</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,5 +35,7 @@
         </nav>
 
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-bnBqGH68d0/2N26a7XxyfD43HcPZRNWA5Aqpv2ndzMldENInFVJ5FJ5AYt4ZxZ9k" crossorigin="anonymous"></script>
 </body>
 </html>
