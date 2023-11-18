@@ -31,15 +31,18 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link" href="doctors.php">About</a>
+                    <a class="nav-link" href="about.php">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="doctors.php">Admissions</a>
+                    <a class="nav-link" href="admissions.php">Admissions</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="patients.php">Academics</a>
+                    <a class="nav-link" href="academics.php">Academics</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="doctors-with-patients.php">Activities</a>
+                    <a class="nav-link" href="activites.php">Activities</a>
+                </li>
+                 <li class="nav-item">
+                    <a class="nav-link" href="class.php">Class</a>
                 </li>
                 <li class="nav
