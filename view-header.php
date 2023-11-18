@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   </head>
   <body>
-    <div class="container" style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px; width:100%; border-top: 10px solid skyblue;">
+    <div class="container">
 
       <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px; width:80%;">
         <div class="container-fluid" style="border-top: 10px solid skyblue;">
