@@ -9,8 +9,8 @@
   <body>
     <div class="container">
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary" style="margin-left:auto; margin-right:auto; padding-left:15px; padding-right:15px; width:80%;">
-        <div class="container-fluid" style="border-top: 10px solid skyblue;">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">About</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
