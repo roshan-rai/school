@@ -17,7 +17,8 @@
 
         /* Add custom styles for navbar elements spacing */
         .navbar-nav .nav-item {
-            margin-right: 50px; /* Adjust the margin as needed */
+            margin-right: 50px;
+            margin-left: 50px;/* Adjust the margin as needed */
         }
     </style>
 </head>
