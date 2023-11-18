@@ -16,9 +16,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Courses</a>
-        </li>
+       
         <li class="nav-item">
           <a class="nav-link" href="doctors.php">Admissions</a>
         </li>
@@ -26,7 +24,10 @@
           <a class="nav-link" href="patients.php">Academics</a>
         </li>
              <li class="nav-item">
-          <a class="nav-link" href="doctors-with-patients.php">School Activities</a>
+          <a class="nav-link" href="doctors-with-patients.php">Activities</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Classes</a>
         </li>
       </ul>
     </div>
