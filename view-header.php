@@ -47,11 +47,11 @@
 <body>
     <!-- Navigation Bar -->
     <nav>
-        <a href="#">About</a>
-        <a href="#">Admissions</a>
-        <a href="#">Academics</a>
-        <a href="#">Activities</a>
-        <a href="#">Class</a>
+        <a href="#about">About</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#academics">Academics</a>
+        <a href="#activities">Activities</a>
+        <a href="#class">Class</a>
         <!-- Add more navigation links as needed -->
     </nav>
 
@@ -61,6 +61,20 @@
         <img src="logo.png" alt="School Logo" class="school-logo">
         <h1>Dream School</h1>
     </div>
+
+    <!-- Placeholder content for scrolling -->
+    <div id="about" style="height: 800px; background-color: #ddd;">
+        <h2>About Us</h2>
+        <p>Your about content goes here.</p>
+    </div>
+
+    <div id="admissions" style="height: 800px; background-color: #eee;">
+        <h2>Admissions</h2>
+        <p>Your admissions content goes here.</p>
+    </div>
+
+    <!-- Add more sections as needed -->
+
 </body>
 
 </html>
