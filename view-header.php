@@ -62,7 +62,7 @@
 
         /* Placeholder content for scrolling */
         section {
-            height: 800px; /* Common height for placeholder content */
+            height: 650px; /* Common height for placeholder content */
             display: flex;
             justify-content: center;
             align-items: center;
