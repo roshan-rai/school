@@ -26,7 +26,7 @@
             color: white;
             text-decoration: none;
             margin: 0 20px; /* Increased margin for better spacing */
-            font-size: 18px; /* Increased font size */
+            font-size: 100px; /* Increased font size */
         }
 
         /* Logo and School Name Styles */
@@ -59,12 +59,7 @@
             background-color: #ddd;
         }
 
-        section h1 {
-            font-size: 200px; /* Increased font size for section headers */
-        }
-        section h2 {
-            font-size: 50px; /* Increased font size for section headers */
-        }
+       
     </style>
 </head>
 
