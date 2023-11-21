@@ -20,6 +20,8 @@
             color: white;
             padding: 10px;
             text-align: center;
+            display: flex;
+            justify-content: space-around;
         }
 
         nav a {
@@ -27,6 +29,7 @@
             text-decoration: none;
             margin: 0 20px; /* Increased margin for better spacing */
             font-size: 40px; /* Increased font size */
+            position: relative;
         }
         
         nav a:hover {
