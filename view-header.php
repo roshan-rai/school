@@ -29,10 +29,10 @@
 
         /* Logo and School Name Styles */
         .header-container {
-            background-color: #333; /* Set your header container color */
+            background-color: skyblue; /* Set your header container color */
             text-align: center;
             padding: 20px;
-            color: white;
+            color: black;
             display: flex;
             align-items: center; /* Center content vertically */
             justify-content: space-between; /* Spread content horizontally */
