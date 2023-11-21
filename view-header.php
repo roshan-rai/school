@@ -12,6 +12,9 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4; /* Set your background color */
         }
+        title{
+            font-size: 40px
+        }
 
         /* Navigation Bar Styles */
         nav {
