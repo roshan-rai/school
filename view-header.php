@@ -15,7 +15,7 @@
 
         /* Navigation Bar Styles */
         nav {
-            background-color: skyblue; /* Set your navigation bar color */
+            background-image: url('hp.jpg'); /* Set your navigation bar color */
             color: white;
             padding: 10px;
             text-align: center;
