@@ -34,19 +34,15 @@
         nav a:hover {
             text-decoration: underline; /* Underline on hover */
         }
-        #about {
-            background-image: url('hp.jpg'); /* Replace 'your_background_image.jpg' with the actual image file path */
+
+        /* Header Container Styles */
+        .header-container {
+            background-image: url('hp.jpg'); /* Set your header container background image */
             background-size: cover;
             background-position: center;
-        }
-
-
-        /* Logo and School Name Styles */
-        .header-container {
-            background-color: skyblue; /* header container color */
             text-align: center;
             padding: 20px;
-            color: White;
+            color: white;
             display: flex;
             align-items: center; /* Center content vertically */
             justify-content: space-between; /* Spread content horizontally */
@@ -73,20 +69,7 @@
             background-color: #ddd;
         }
 
-      
-    </style>
-</head>
-
-<body>
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="#about">About</a>
-        <a href="#admissions">Admissions</a>
-        <a href="#academics">Academics</a>
-        <a href="#activities">Activities</a>
-        <a href="#class">Class</a>
-
-          /* Search Bar Styles */
+        /* Search Bar Styles */
         .search-bar {
             display: flex;
             justify-content: center;
@@ -101,6 +84,17 @@
             margin-right: 5px;
         }
         
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#academics">Academics</a>
+        <a href="#activities">Activities</a>
+        <a href="#class">Class</a>
     </nav>
 
     <!-- Header Container with Logo and School Name -->
