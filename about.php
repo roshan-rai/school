@@ -5,8 +5,9 @@
       background-image: url('giphy.gif');
       background-size: cover;
       height: 100vh;
-      width: 100%; /* Adjust to cover the full width of the page */
+      width: 100%; /
       position: relative;
+      background-color: rgba(255, 255, 255, 0.8); 
     }
 
     .content {
