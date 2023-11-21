@@ -11,7 +11,7 @@
             padding: 0;
             font-family: Georgia, sans-serif;
             background-color: #f4f4f4; /* Set your background color */
-            font-weight: bold;
+           
         }
      
 
@@ -29,7 +29,7 @@
             color: white;
             text-decoration: none;
             margin: 0 20px; /* Increased margin for better spacing */
-            font-size: 40px; /* Increased font size */
+            font-size: 30px; /* Increased font size */
             position: relative;
         }
         
@@ -56,6 +56,7 @@
         h1 {
             margin: 0; /* Remove the left margin to center the text */
             font-size: 100px;
+             font-weight: bold;
         }
 
         /* Placeholder content for scrolling */
