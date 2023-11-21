@@ -1,14 +1,27 @@
+
   <style>
-.background-container {
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    .background-container {
       background-image: url('giphy.gif');
       background-size: cover;
       height: 100vh;
-      width: 50%;
+      width: 100%; /* Adjust to cover the full width of the page */
+      position: relative;
     }
 
     .content {
       width: 50%;
       padding: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white; /* Set the text color to white */
     }
 
     ul {
