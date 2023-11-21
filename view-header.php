@@ -107,7 +107,8 @@
     <!-- Placeholder content for scrolling -->
     <section id="about">
         <h2>About Us</h2>
-        <p>Your about content goes here.</p>
+        $background_image_url = 'cheeryBlossom.gif'
+        <p>Dream School</p>
     </section>
 
     <section id="admissions" style="background-color: #eee;">
