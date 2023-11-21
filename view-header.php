@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dream School</title>
+    <title>Hogwarts School</title>
     <style>
         body {
             margin: 0;
@@ -35,7 +35,7 @@
             text-decoration: underline; /* Underline on hover */
         }
         #about {
-            background-image: url('cheeryBlossom.gif'); /* Replace 'your_background_image.jpg' with the actual image file path */
+            background-image: url('hp.jpg'); /* Replace 'your_background_image.jpg' with the actual image file path */
             background-size: cover;
             background-position: center;
         }
