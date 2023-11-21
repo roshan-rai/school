@@ -11,9 +11,7 @@
             padding: 0;
             font-family: Georgia, sans-serif;
             background-color: #f4f4f4; /* Set your background color */
-           
         }
-     
 
         /* Navigation Bar Styles */
         nav {
@@ -32,11 +30,11 @@
             font-size: 30px; /* Increased font size */
             position: relative;
         }
-        
+
         nav a:hover {
             text-decoration: underline; /* Underline on hover */
         }
-        
+
         /* Logo and School Name Styles */
         .header-container {
             background-color: skyblue; /* header container color */
@@ -56,8 +54,8 @@
         h1 {
             margin-right: auto; /* Remove the left margin to center the text */
             font-size: 80px;
-             font-weight: bold;
-            font-family: "Times New Roman"
+            font-weight: bold;
+            font-family: "Times New Roman";
         }
 
         /* Placeholder content for scrolling */
@@ -69,7 +67,20 @@
             background-color: #ddd;
         }
 
-       
+        /* Search Bar Styles */
+        .search-bar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            background-color: #fff; /* Set your search bar background color */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow for styling */
+        }
+
+        .search-bar input {
+            padding: 5px;
+            margin-right: 5px;
+        }
     </style>
 </head>
 
@@ -81,10 +92,6 @@
         <a href="#academics">Academics</a>
         <a href="#activities">Activities</a>
         <a href="#class">Class</a>
-        class="navbar bg-body-tertiary">
-        <!-- Add more navigation links as needed -->
-    </nav>
-        
     </nav>
 
     <!-- Header Container with Logo and School Name -->
@@ -105,8 +112,13 @@
         <p>Your admissions content goes here.</p>
     </section>
 
-
-
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
 </body>
 
 </html>
