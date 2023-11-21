@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your School Name</title>
+    <title>Dream School</title>
     <style>
         body {
             margin: 0;
@@ -15,7 +15,7 @@
 
         /* Navigation Bar Styles */
         nav {
-            background-color: #333; /* Set your navigation bar color */
+            background-color: skyblue; /* Set your navigation bar color */
             color: white;
             padding: 10px;
             text-align: center;
