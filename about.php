@@ -1,4 +1,4 @@
-<div style="background-image: url('video.png');">
+<div style="background-image: url('giphy.gif');">
   <p style="font-size: 50px;">
     <ul style="list-style-type: none; padding: 0;">
       <li style="font-size: 50px;">About Us</li>
