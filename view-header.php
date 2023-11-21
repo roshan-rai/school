@@ -34,6 +34,12 @@
         nav a:hover {
             text-decoration: underline; /* Underline on hover */
         }
+        #about {
+            background-image: url('cheeryBlossom.gif'); /* Replace 'your_background_image.jpg' with the actual image file path */
+            background-size: cover;
+            background-position: center;
+        }
+
 
         /* Logo and School Name Styles */
         .header-container {
