@@ -60,10 +60,10 @@
         }
 
         section h1 {
-            font-size: 40px; /* Increased font size for section headers */
+            font-size: 200px; /* Increased font size for section headers */
         }
         section h2 {
-            font-size: 24px; /* Increased font size for section headers */
+            font-size: 50px; /* Increased font size for section headers */
         }
     </style>
 </head>
