@@ -47,7 +47,7 @@
 
         h1 {
             margin: 0; /* Remove the left margin to center the text */
-            font-size: 40px;
+            font-size: 100px;
         }
 
         /* Placeholder content for scrolling */
