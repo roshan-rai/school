@@ -12,9 +12,7 @@
             font-family: Arial, sans-serif;
             background-color: #f4f4f4; /* Set your background color */
         }
-        title{
-            font-size: 40px
-        }
+     
 
         /* Navigation Bar Styles */
         nav {
@@ -49,6 +47,7 @@
 
         h1 {
             margin: 0; /* Remove the left margin to center the text */
+            font-size: 40px;
         }
 
         /* Placeholder content for scrolling */
@@ -60,6 +59,9 @@
             background-color: #ddd;
         }
 
+        section h1 {
+            font-size: 40px; /* Increased font size for section headers */
+        }
         section h2 {
             font-size: 24px; /* Increased font size for section headers */
         }
