@@ -13,10 +13,10 @@
       width: 50%;
       padding: 20px;
       position: absolute;
-      top: 50%;
+      top: 90%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: white; /* Set the text color to white */
+      color: red; /* Set the text color to white */
     }
 
     ul {
