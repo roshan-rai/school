@@ -79,8 +79,8 @@
         <a href="#academics">Academics</a>
         <a href="#activities">Activities</a>
         <a href="#class">Class</a>
-    </nav>
-  /* Search Bar Styles */
+
+          /* Search Bar Styles */
         .search-bar {
             display: flex;
             justify-content: center;
@@ -94,6 +94,9 @@
             padding: 5px;
             margin-right: 5px;
         }
+        
+    </nav>
+
     <!-- Header Container with Logo and School Name -->
     <div class="header-container">
         <!-- Replace 'logo.png' with your actual logo file -->
