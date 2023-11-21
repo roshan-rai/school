@@ -106,7 +106,6 @@
 
     <!-- Placeholder content for scrolling -->
     <section id="about">
-        <h2>About Us</h2>
         <?php
             include "about.php";
         ?>
