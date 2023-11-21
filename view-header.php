@@ -107,13 +107,13 @@
     <div class="header-container">
         <!-- Replace 'logo.png' with your actual logo file -->
         <img src="logo.png" alt="School Logo" class="school-logo">
-        <h1>Dream School</h1>
+        <h1>Hogwarts School</h1>
     </div>
 
     <!-- Placeholder content for scrolling -->
     <section id="about">
         <h2>About Us</h2>
-        <p>Dream School</p>
+        <p>Hogwarts School</p>
     </section>
 
     <section id="admissions" style="background-color: #eee;">
