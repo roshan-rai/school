@@ -42,7 +42,7 @@
             background-color: skyblue; /* header container color */
             text-align: center;
             padding: 20px;
-            color: black;
+            color: White;
             display: flex;
             align-items: center; /* Center content vertically */
             justify-content: space-between; /* Spread content horizontally */
@@ -57,6 +57,7 @@
             margin-right: auto; /* Remove the left margin to center the text */
             font-size: 80px;
              font-weight: bold;
+            font-family: "Times New Roman"
         }
 
         /* Placeholder content for scrolling */
