@@ -33,6 +33,9 @@
             text-align: center;
             padding: 20px;
             color: white;
+            display: flex;
+            align-items: center; /* Center content vertically */
+            justify-content: space-between; /* Spread content horizontally */
         }
 
         .school-logo {
