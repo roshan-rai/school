@@ -74,7 +74,7 @@
 <body>
     <!-- Navigation Bar -->
     <nav>
-        <a href="#about.html">About</a>
+        <a href="#about.php">About</a>
         <a href="#admissions">Admissions</a>
         <a href="#academics">Academics</a>
         <a href="#activities">Activities</a>
