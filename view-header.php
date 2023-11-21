@@ -9,8 +9,9 @@
         body {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
+            font-family: Georgia, sans-serif;
             background-color: #f4f4f4; /* Set your background color */
+            font-weight: bold;
         }
      
 
