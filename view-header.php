@@ -39,7 +39,7 @@
         
         /* Logo and School Name Styles */
         .header-container {
-            background-color: skyblue; /* Set your header container color */
+            background-color: skyblue; /* header container color */
             text-align: center;
             padding: 20px;
             color: black;
@@ -49,13 +49,13 @@
         }
 
         .school-logo {
-            max-width: 120px; /* Set your logo size */
-            max-height: 120px; /* Set your logo size */
+            max-width: 100px; /* Set your logo size */
+            max-height: 100px; /* Set your logo size */
         }
 
         h1 {
             margin-right: auto; /* Remove the left margin to center the text */
-            font-size: 100px;
+            font-size: 80px;
              font-weight: bold;
         }
 
