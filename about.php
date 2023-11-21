@@ -1,16 +1,4 @@
-<?php
-// Define the background image URL
-$background_image_url = 'cheeryBlossom.gif'; // Change this to your actual image file
-
-// Include the common header
-include('view-header.php');
-?>
-
-<!-- Additional content for about page -->
-<div id="about" style="background-image: url('<?php echo $background_image_url; ?>');">
-    <h2>About Us</h2>
-    <p>Dream School is a place where students learn the best.</p>
-</div>
-
-<!-- Include the common footer -->
-<?php include('view-footer.php'); ?>
+  <h2>About Us</h2>
+        <p>
+            Hogwarts School of Witchcraft and Wizardry, nestled amidst the enchanting landscape of the British countryside, is a place where magic comes to life and young witches and wizards embark on an extraordinary journey of discovery. The towering spires and ancient halls of Hogwarts echo with centuries of mystical wisdom and are a testament to the school's rich history. From the moment students step through the magical barrier at Platform 9¾, they are greeted by the majestic Hogwarts Express, which transports them to a realm of wonders. Within the castle's walls, students are immersed in a curriculum that encompasses the art of potion-making, the intricacies of spellcasting, and the fascinating study of magical creatures. Led by the wise and venerable Headmaster, Albus Dumbledore, Hogwarts instills not only academic knowledge but also values of friendship, courage, and the pursuit of truth. As students traverse the shifting staircases and secret passages, they forge bonds that last a lifetime, creating memories that are as enduring as the magic that courses through the very stones of Hogwarts School.
+        </p>
