@@ -10,12 +10,14 @@
             margin: 0;
             padding: 0;
             font-family: Georgia, sans-serif;
-            background-color: #f4f4f4; /* Set your background color */
+            background-color: #7F0909;
+            overflow-x: hidden; /* no horizontal sliding scrolll */
+
         }
 
         /* Navigation Bar Styles */
         nav {
-            background-color: #7F0909; /* Set your navigation bar color */
+            background-color: #7F0909; /* Hogwarts red */
             color: white;
             padding: 10px;
             text-align: center;
