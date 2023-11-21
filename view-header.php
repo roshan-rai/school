@@ -40,7 +40,7 @@
         /* Header Container Styles */
         .header-container {
             background-image: url('hp.jpg'); /* Set your header container background image */
-            background-size: cover;
+            background-size: contain;
             background-position: center;
             text-align: center;
             padding: 20px;
