@@ -1,4 +1,5 @@
- .background-container {
+  <style>
+.background-container {
       background-image: url('giphy.gif');
       background-size: cover;
       height: 100vh;
@@ -19,9 +20,6 @@
       font-size: 20px; /* Adjust the font size as needed */
     }
   </style>
-</head>
-<body>
-
   <div class="background-container"></div>
 
   <div class="content">
