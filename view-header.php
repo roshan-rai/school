@@ -113,22 +113,30 @@
 
     <section id="admissions" style="background-color: #eee;">
         <h2>Admissions</h2>
-        <p>Your admissions content goes here.</p>
+         <?php
+            include "admissions.php";
+        ?>
     </section>
 
     <section id="academics" style="background-color: #eee;">
         <h2>Academics</h2>
-        <p>Your admissions content goes here.</p>
+        <?php
+            include "academics.php";
+        ?>
     </section>
 
     <section id="activities" style="background-color: #eee;">
         <h2>Activities</h2>
-        <p>Your admissions content goes here.</p>
+         <?php
+            include "activities.php";
+        ?>
     </section>
 
       <section id="House" style="background-color: #eee;">
         <h2>House</h2>
-        <p>House information.</p>
+         <?php
+            include "house.php";
+        ?>
     </section>
 
     <!-- Search Bar -->
