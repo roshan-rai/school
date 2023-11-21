@@ -1,22 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Neverland: Fairies</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-  <style>  
-    .bg-light {
-    --bs-bg-opacity: 0;
-    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
-}
-body{
-  background-image: url('cheeryBlossom.gif');
-  background-size: cover;
-}
- 
-  </style>
-    
-  </head>
-  <body>
+<?php
+// Define the background image URL
+$background_image_url = 'cheeryBlossom.gif'; // Change this to your actual image file
+
+// Include the common header
+include('view-header.php');
+?>
+
+<!-- Additional content for about page -->
+<div id="about" style="background-image: url('<?php echo $background_image_url; ?>');">
+    <h2>About Us</h2>
+    <p>Your about content goes here.</p>
+</div>
+
+<!-- Include the common footer -->
+<?php include('view-footer.php'); ?>
