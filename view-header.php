@@ -41,8 +41,12 @@
             max-width: 100px; /* Set your logo size */
             max-height: 100px; /* Set your logo size */
             display: block;
-            margin: 0 auto;
+            margin: auto;
         }
+
+         h1 {
+        margin-left: Center; /* Pushes the school name to the left */
+    }
     </style>
 </head>
 
