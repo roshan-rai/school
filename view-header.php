@@ -80,7 +80,7 @@
 <body>
     <!-- Navigation Bar -->
     <nav>
-        <a href="#about.php">About</a>
+        <a href="#about">About</a>
         <a href="#admissions">Admissions</a>
         <a href="#academics">Academics</a>
         <a href="#activities">Activities</a>
@@ -113,7 +113,6 @@
     <!-- Placeholder content for scrolling -->
     <section id="about">
         <h2>About Us</h2>
-        $background_image_url = 'cheeryBlossom.gif'
         <p>Dream School</p>
     </section>
 
