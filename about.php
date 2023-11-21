@@ -9,7 +9,7 @@ include('view-header.php');
 <!-- Additional content for about page -->
 <div id="about" style="background-image: url('<?php echo $background_image_url; ?>');">
     <h2>About Us</h2>
-    <p>Your about content goes here.</p>
+    <p>Dream School is a place where students learn the best.</p>
 </div>
 
 <!-- Include the common footer -->
