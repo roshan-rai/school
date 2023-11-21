@@ -35,7 +35,6 @@
             color: black;
             display: flex;
             align-items: center; /* Center content vertically */
-            justify-content: space-between; /* Spread content horizontally */
         }
 
         .school-logo {
