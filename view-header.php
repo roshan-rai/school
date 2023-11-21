@@ -24,7 +24,8 @@
         nav a {
             color: white;
             text-decoration: none;
-            margin: 0 15px;
+            margin: 0 20px; /* Increased margin for better spacing */
+            font-size: 18px; /* Increased font size */
         }
 
         /* Logo and School Name Styles */
@@ -35,18 +36,30 @@
             color: black;
             display: flex;
             align-items: center; /* Center content vertically */
+            justify-content: space-between; /* Spread content horizontally */
         }
 
         .school-logo {
             max-width: 100px; /* Set your logo size */
             max-height: 100px; /* Set your logo size */
-            display: block;
-            margin: auto;
         }
 
-         h1 {
-        margin-left: Center; /* Pushes the school name to the left */
-    }
+        h1 {
+            margin: 0; /* Remove the left margin to center the text */
+        }
+
+        /* Placeholder content for scrolling */
+        section {
+            height: 800px; /* Common height for placeholder content */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #ddd;
+        }
+
+        section h2 {
+            font-size: 24px; /* Increased font size for section headers */
+        }
     </style>
 </head>
 
@@ -69,15 +82,15 @@
     </div>
 
     <!-- Placeholder content for scrolling -->
-    <div id="about" style="height: 800px; background-color: #ddd;">
+    <section id="about">
         <h2>About Us</h2>
         <p>Your about content goes here.</p>
-    </div>
+    </section>
 
-    <div id="admissions" style="height: 800px; background-color: #eee;">
+    <section id="admissions" style="background-color: #eee;">
         <h2>Admissions</h2>
         <p>Your admissions content goes here.</p>
-    </div>
+    </section>
 
     <!-- Add more sections as needed -->
 
