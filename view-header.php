@@ -107,12 +107,29 @@
     <!-- Placeholder content for scrolling -->
     <section id="about">
         <h2>About Us</h2>
-        <p>Hogwarts School</p>
+        <p>
+            Hogwarts School of Witchcraft and Wizardry, nestled amidst the enchanting landscape of the British countryside, is a place where magic comes to life and young witches and wizards embark on an extraordinary journey of discovery. The towering spires and ancient halls of Hogwarts echo with centuries of mystical wisdom and are a testament to the school's rich history. From the moment students step through the magical barrier at Platform 9¾, they are greeted by the majestic Hogwarts Express, which transports them to a realm of wonders. Within the castle's walls, students are immersed in a curriculum that encompasses the art of potion-making, the intricacies of spellcasting, and the fascinating study of magical creatures. Led by the wise and venerable Headmaster, Albus Dumbledore, Hogwarts instills not only academic knowledge but also values of friendship, courage, and the pursuit of truth. As students traverse the shifting staircases and secret passages, they forge bonds that last a lifetime, creating memories that are as enduring as the magic that courses through the very stones of Hogwarts School.
+        </p>
     </section>
 
     <section id="admissions" style="background-color: #eee;">
         <h2>Admissions</h2>
         <p>Your admissions content goes here.</p>
+    </section>
+
+    <section id="academics" style="background-color: #eee;">
+        <h2>Academics</h2>
+        <p>Your admissions content goes here.</p>
+    </section>
+
+    <section id="activities" style="background-color: #eee;">
+        <h2>Activities</h2>
+        <p>Your admissions content goes here.</p>
+    </section>
+
+      <section id="House" style="background-color: #eee;">
+        <h2>House</h2>
+        <p>House information.</p>
     </section>
 
     <!-- Search Bar -->
