@@ -57,9 +57,10 @@
 
         h1 {
             margin-right: auto; /* Remove the left margin to center the text */
-            font-size: 80px;
+            font-size: 25px;
             font-weight: bold;
-            font-family: "Times New Roman";
+            color: white;
+            font-family: "Old English Text MT", serif;
         }
 
         /* Placeholder content for scrolling */
