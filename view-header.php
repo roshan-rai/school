@@ -82,14 +82,18 @@
         <a href="#activities">Activities</a>
         <a href="#class">Class</a>
         class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-        <form class="d-flex" role="search">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
-  </div>
-
         <!-- Add more navigation links as needed -->
+    </nav>
+    <nav>
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+</nav>
+        
     </nav>
 
     <!-- Header Container with Logo and School Name -->
