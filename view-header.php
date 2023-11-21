@@ -49,8 +49,8 @@
         }
 
         .school-logo {
-            max-width: 100px; /* Set your logo size */
-            max-height: 100px; /* Set your logo size */
+            max-width: 200px; /* Set your logo size */
+            max-height: 200px; /* Set your logo size */
         }
 
         h1 {
