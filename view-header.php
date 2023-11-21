@@ -67,7 +67,20 @@
             background-color: #ddd;
         }
 
-        /* Search Bar Styles */
+      
+    </style>
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#academics">Academics</a>
+        <a href="#activities">Activities</a>
+        <a href="#class">Class</a>
+    </nav>
+  /* Search Bar Styles */
         .search-bar {
             display: flex;
             justify-content: center;
@@ -81,19 +94,6 @@
             padding: 5px;
             margin-right: 5px;
         }
-    </style>
-</head>
-
-<body>
-    <!-- Navigation Bar -->
-    <nav>
-        <a href="#about">About</a>
-        <a href="#admissions">Admissions</a>
-        <a href="#academics">Academics</a>
-        <a href="#activities">Activities</a>
-        <a href="#class">Class</a>
-    </nav>
-
     <!-- Header Container with Logo and School Name -->
     <div class="header-container">
         <!-- Replace 'logo.png' with your actual logo file -->
