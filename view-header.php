@@ -100,7 +100,7 @@
     <!-- Header Container with Logo and School Name -->
     <div class="header-container">
         <!-- Replace 'logo.png' with your actual logo file -->
-        <img src="logo.png" alt="School Logo" class="school-logo">
+        <img src="hogwartsLogo.png" alt="School Logo" class="school-logo">
         <h1>Hogwarts School</h1>
     </div>
 
