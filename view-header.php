@@ -28,7 +28,11 @@
             margin: 0 20px; /* Increased margin for better spacing */
             font-size: 40px; /* Increased font size */
         }
-
+        
+        nav a:hover {
+            text-decoration: underline; /* Underline on hover */
+        }
+        
         /* Logo and School Name Styles */
         .header-container {
             background-color: skyblue; /* Set your header container color */
