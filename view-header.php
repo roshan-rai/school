@@ -49,12 +49,12 @@
         }
 
         .school-logo {
-            max-width: 200px; /* Set your logo size */
-            max-height: 200px; /* Set your logo size */
+            max-width: 120px; /* Set your logo size */
+            max-height: 120px; /* Set your logo size */
         }
 
         h1 {
-            margin: 0; /* Remove the left margin to center the text */
+            margin-right: auto; /* Remove the left margin to center the text */
             font-size: 100px;
              font-weight: bold;
         }
