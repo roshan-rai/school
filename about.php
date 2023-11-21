@@ -1,10 +1,5 @@
 
   <style>
-    body {
-      margin: 0;
-      padding: 0;
-      display: flex;
-    }
 
     .background-container {
       background-image: url('giphy.gif');
