@@ -1,3 +1,20 @@
-<p>
-Hogwarts School of Witchcraft and Wizardry, nestled in the Scottish Highlands, is a prestigious institution that has been shaping young witches and wizards for centuries. Admissions to Hogwarts are a magical affair, with acceptance letters delivered by owl post to budding magical talents on their eleventh birthdays. The school, known for its enchanting castle and diverse array of magical courses, welcomes students with a penchant for spells, potions, and the pursuit of wisdom. Guided by the Sorting Hat, each student is sorted into one of four houses—Gryffindor, Hufflepuff, Ravenclaw, or Slytherin—fostering a sense of camaraderie and competition throughout their years at Hogwarts. Admission to this extraordinary school marks the beginning of an enchanted journey into the world of wizardry and wonder.
-</p>
+<div class="row">
+  <div class="col-sm-6 mb-3 mb-sm-0">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+</div>
