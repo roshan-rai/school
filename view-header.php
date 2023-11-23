@@ -115,7 +115,9 @@
     </section>
 
     <section id="admissions" style="background-color: #eee;">
-        <h2>Admissions</h2>
+        <h2>
+            
+        </h2>
          <?php
             include "admissions.php";
         ?>
