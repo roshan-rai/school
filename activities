@@ -8,9 +8,14 @@
         <div class="card h-100">
             <img src="aboutimage.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h2 class="card-title">Fairies</h2>
-                <p class="card-text">More fairies.</p>
-                <a href="listFairies.html" class="btn btn-primary">Let's go into the Fairy World !!!</a>
+                <h2 class="card-title"> GET TO KNOW ME</h2>
+                <h2 class="card-title">Hello and Namaste</h2>
+
+                <p class="card-text">
+I am Roshan Rai from Nepal and an alumni of UWCCR 20'. Before coming to UWC I definitely had big dreams for my life but did not have a particular direction. I was just a normal kid who had a daily routine who had been taught that the only thing that matters is grades. Who knew the form I filled up for, without knowing what it was at the last day of deadline, was a ticket to this wonderful journey.
+UWC was not an easy journey for me though. There were not many things I was familiar with the first time I came here. I felt like I was on another planet. The system, culture, language, food, people everything was different. There were countless times when I felt like packing up and coming back. However, I did not choose my comfort zone and decided to fight everything rather than run away from problems.  As people say, "Difficult journeys often lead you to beautiful destinations". This saying has become nothing but a complete truth for me when I look back at my two years. 
+Today, I consider myself one of the luckiest people because I got this wonderful opportunity to take the roller coaster ride of UWC experience. I had never imagined I would have a chance to explore life at such a young age. UWC gave me a future, family, knowledge, experience and what not ?
+               </p>
             </div>
         </div>
     </div>
