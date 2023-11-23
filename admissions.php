@@ -12,7 +12,7 @@
 
 .image-box {
     flex: 1;
-    max-width: 30%; /* Adjust the width of the image box as needed */
+    max-width: 10%; /* Adjust the width of the image box as needed */
     padding: 20px; /* Optional: Add padding for spacing */
     background-color: rgba(255, 255, 255, 0.8);
     box-sizing: border-box; /* Include padding in the width */
@@ -51,7 +51,7 @@
       font-size: 20px; /* Adjust the font size as needed */
     }
   </style>
-  <div class="background-container"></div>
+
 
   <div class="content">
     <p style="font-size: 50px;">
