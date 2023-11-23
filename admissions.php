@@ -1,4 +1,8 @@
- <div class="row">
+<head>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<div class="row">
         <!-- Card 1 -->
         <div class="col-md-4 mb-4">
             <div class="card">
