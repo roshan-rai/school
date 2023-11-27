@@ -126,7 +126,7 @@
     <section id="student" style="background-color: #eee;">
         <h2>Student</h2>
         <?php
-            include "student.php";
+            include "students.php";
         ?>
     </section>
 
