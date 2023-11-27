@@ -1,4 +1,4 @@
-<h1>Doctors</h1>
+<h1>Students</h1>
 <div class="table-responsive">
   <table class="table">
     <thead>
@@ -12,18 +12,18 @@
     </thead>
       <tbody>
         <?php
-            while ($doctor = $doctors-> fetch_assoc())
+            while ($student = $students-> fetch_assoc())
               {
                 ?>
                   <tr>
-                    <td><?php echo $doctor['doctor_id'];?></td>
+                    <td><?php echo $student['student_id'];?></td>
                     <td>
-                      <?php echo $doctor['doctor_name'];?></td>
+                      <?php echo $student['student_name'];?></td>
                     </td>
                     <td>
-                      <?php echo $doctor['doctor_area'];?></td>
+                      <?php echo $student['student_area'];?></td>
                     </td>
-                    <td><a href="patients-by-doctor.php?id=<?php echo $doctor['doctor_id'];?>">Patients</a></td>
+                    <td><a href="awards-by-student.php?id=<?php echo $student['student_id'];?>">Awards</a></td>
                   </tr>
                   
                 <?php
