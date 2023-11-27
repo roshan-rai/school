@@ -33,7 +33,7 @@
                         <a href="apply.php" class="btn btn-primary">Apply Now</a>
                     </td>
                     <td>
-                        <img src="aboutimage.jpg" alt="Picture">
+                        <img src="aboutimage.jpg" alt="Picture" height: auto;">
                     </td>
                 </tr>
             </tbody>
