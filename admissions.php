@@ -3,6 +3,12 @@
 
 <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .table img {
+            max-height: 1200px;
+            max-width: 500px;
+        }
+    </style>
 </head>
 
 <body>
@@ -33,7 +39,8 @@
                         <a href="apply.php" class="btn btn-primary">Apply Now</a>
                     </td>
                     <td>
-                        <img src="aboutimage.jpg" alt="Picture" height: auto;">
+                        <!-- my professional -->
+                        <img src="aboutimage.jpg" alt="Picture">
                     </td>
                 </tr>
             </tbody>
