@@ -33,7 +33,7 @@
                         <a href="apply.php" class="btn btn-primary">Apply Now</a>
                     </td>
                     <td>
-                        <img src="aboutimage.jpg" alt="Picture" class="img-fluid" style="max-width: 100%;">
+                        <img src="aboutimage.jpg" alt="Picture">
                     </td>
                 </tr>
             </tbody>
