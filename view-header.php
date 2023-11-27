@@ -39,7 +39,7 @@
 
         /* Header Container Styles */
         .header-container {
-            background-image: url('hp.jpg'); /* Set your header container background image */
+            background-image: url('hp.jpg'); /* Set header container background image */
             background-size: contain;
             background-position: center;
             text-align: center;
@@ -51,8 +51,8 @@
         }
 
         .school-logo {
-            max-width: 100px; /* Set your logo size */
-            max-height: 100px; /* Set your logo size */
+            max-width: 100px; /* Set logo size */
+            max-height: 100px; /* Set logo size */
         }
 
         h1 {
@@ -95,9 +95,9 @@
     <nav>
         <a href="#about">About</a>
         <a href="#admissions">Admissions</a>
-        <a href="#academics">Academics</a>
-        <a href="#activities">Activities</a>
-        <a href="#class">Class</a>
+        <a href="#student">Student</a>
+        <a href="#house">House</a>
+        <a href="#award">Award</a>
     </nav>
 
     <!-- Header Container with Logo and School Name -->
@@ -123,17 +123,10 @@
         ?>
     </section>
 
-    <section id="academics" style="background-color: #eee;">
-        <h2>Academics</h2>
+    <section id="student" style="background-color: #eee;">
+        <h2>Student</h2>
         <?php
-            include "academics.php";
-        ?>
-    </section>
-
-    <section id="activities" style="background-color: #eee;">
-        <h2>Activities</h2>
-         <?php
-            include "activities.php";
+            include "student.php";
         ?>
     </section>
 
@@ -141,6 +134,13 @@
         <h2>House</h2>
          <?php
             include "house.php";
+        ?>
+    </section>
+    
+        <section id="Award" style="background-color: #eee;">
+        <h2>Award</h2>
+         <?php
+            include "award.php";
         ?>
     </section>
 
