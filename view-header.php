@@ -6,6 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hogwarts School</title>
     <style>
+        
+header {
+    background: url('background-image.jpg') center/cover no-repeat;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 100%}
+
+nav.nav-item { display: block; 
+                       padding: 12px 20px; 
+                       border: 1px solid transparent; 
+                       font-family: 'Montserrat', sans-serif; font-size: 12px; 
+                       font-weight: 500; 
+                       line-height: 1; 
+                       letter-spacing: 0.05em; 
+                       text-transform: uppercase; 
+                       -webkit-transition: opacity 300ms ease; 
+                       -moz-transition: opacity 300ms ease; 
+                       -ms-transition: opacity 300ms ease; 
+                       transition: opacity 300ms ease; }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+li {
+    display: inline;
+}
         body {
             margin: 0;
             padding: 0;
