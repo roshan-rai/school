@@ -141,7 +141,7 @@
         <section id="Award" style="background-color: #eee;">
         <h2>Award</h2>
          <?php
-            include "award.php";
+            include "awards.php";
         ?>
     </section>
 
