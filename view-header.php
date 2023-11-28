@@ -131,14 +131,14 @@
     </section>
 
 
-      <section id="House" style="background-color: #eee;">
+      <section id="house" style="background-color: #eee;">
         <h2>House</h2>
          <?php
             include "house.php";
         ?>
     </section>
     
-        <section id="Award" style="background-color: #eee;">
+        <section id="award" style="background-color: #eee;">
         <h2>Award</h2>
          <?php
             include "awards.php";
