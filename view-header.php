@@ -92,13 +92,15 @@
 
 <body>
     <!-- Navigation Bar -->
-    <nav>
-        <a href="#about">About</a>
-        <a href="#admissions">Admissions</a>
-        <a href="#student">Student</a>
-        <a href="#house">House</a>
-        <a href="#award">Award</a>
-    </nav>
+    <nav class="nav-item">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li> <a href="#admissions">Admissions</a></li>
+                <li><a href="#student">Student</a></li>
+                <li><a href="#house">House</a></li>
+                <li><a href="#award">Award</a></li>
+            </ul>
+        </nav>
 
     <!-- Header Container with Logo and School Name -->
     <div class="header-container">
