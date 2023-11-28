@@ -123,12 +123,7 @@
         ?>
     </section>
 
-    <section id="student" style="background-color: #eee;">
-        <h2>Student</h2>
-        <?php
-            include "students.php";
-        ?>
-    </section>
+
 
       <section id="House" style="background-color: #eee;">
         <h2>House</h2>
