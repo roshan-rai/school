@@ -92,6 +92,7 @@
 
 <body>
     <!-- Navigation Bar -->
+    <header>
     <nav class="nav-item">
             <ul>
                 <li><a href="#about">About</a></li>
@@ -101,6 +102,7 @@
                 <li><a href="#award">Award</a></li>
             </ul>
         </nav>
+    </header>
 
     <!-- Header Container with Logo and School Name -->
     <div class="header-container">
