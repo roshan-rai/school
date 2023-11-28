@@ -121,6 +121,12 @@ li {
             padding: 5px;
             margin-right: 5px;
         }
+          header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            transition: background-color 0.3s ease; /* Add a smooth transition effect */
+        }
         
     </style>
 </head>
