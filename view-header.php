@@ -19,7 +19,7 @@
         nav {
             background-color: #7F0909; /* Hogwarts red */
             color: white;
-            padding: 10px;
+            padding: 12px 20px;
             text-align: center;
             display: flex;
             justify-content: space-around;
