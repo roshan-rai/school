@@ -5,7 +5,7 @@
       <tr>
          <th>ID</th>
       <th>Name</th>
-      <th>Area</th>
+      <th>Class</th>
          <th></th>
       </tr>
      
@@ -21,7 +21,7 @@
                       <?php echo $student['student_name'];?></td>
                     </td>
                     <td>
-                      <?php echo $student['student_area'];?></td>
+                      <?php echo $student['student_class'];?></td>
                     </td>
                     <td><a href="awards-by-student.php?id=<?php echo $student['student_id'];?>">Awards</a></td>
                   </tr>
