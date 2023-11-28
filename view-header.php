@@ -130,7 +130,13 @@
         ?>
     </section>
 
-
+        <section id="award" style="background-color: #eee;">
+        <h2>Award</h2>
+         <?php
+            include "awards.php";
+        ?>
+    </section>
+    
       <section id="house" style="background-color: #eee;">
         <h2>House</h2>
          <?php
@@ -138,12 +144,7 @@
         ?>
     </section>
     
-        <section id="award" style="background-color: #eee;">
-        <h2>Award</h2>
-         <?php
-            include "awards.php";
-        ?>
-    </section>
+
 
     <!-- Search Bar -->
     <div class="search-bar">
