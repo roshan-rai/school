@@ -240,7 +240,6 @@ li {
         ?>
     </section>
     <section id="student-by-houseSection" style="background-color: #eee;">
-        <h1>Student By House</h1>
          <?php
             include "students-by-house.php";
         ?>
