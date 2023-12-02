@@ -29,6 +29,9 @@ include "view-students-newform.php";
                       <?php echo $student['student_class'];?></td>
                     </td>
                     <td><a href="house.php?id=<?php echo $student['student_id'];?>">House</a></td>
+                     <td><?php
+                      include "view-student-editform.php";
+                      ?></td>
                        <td>
                       <form method="post" action="">
                         <input type="hidden" name="sid" value="<?php echo $student['student_id'];?>"/>
