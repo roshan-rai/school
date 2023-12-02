@@ -161,6 +161,15 @@ li {
 }
     </style>
     <script>
+        const toastTrigger = document.getElementById('liveToastBtn')
+        const toastLiveExample = document.getElementById('liveToast')
+        
+        if (toastTrigger) {
+          const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
+          toastTrigger.addEventListener('click', () => {
+            toastBootstrap.show()
+          })
+        }
         document.addEventListener('DOMContentLoaded', function () {
             // Extract the hash from the URL (e.g., #house)
             var hash = window.location.hash.substring(1);
