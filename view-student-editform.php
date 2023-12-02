@@ -25,11 +25,7 @@
               <label for="sClass<?php echo $student['student_id']; ?>" class="form-label">Student Class</label>
               <input type="text" class="form-control" id="sClass<?php echo $student['student_id']; ?>" name="sClass" value="<?php echo $student['student_class']; ?>">
             </div>
-            <div class="mb-3">
-              <label for="sHouse<?php echo $student['student_id']; ?>" class="form-label">House</label>
-              <input type="text" class="form-control" id="sHouse<?php echo $student['student_id']; ?>" name="sHouse" value="<?php echo $student['house_name']; ?>">
-            
-            </div>
+          
               <div class="mb-3">
               <label for="hid<?php echo $student['student_id']; ?>" class="form-label">House</label>
                  <?php $houseList=selectHousesForInput(); 
