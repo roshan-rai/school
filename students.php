@@ -32,15 +32,7 @@ if (isset($_POST['actionType'])) {
       else {
     echo '<div class="alert alert-danger" role="alert"> Error</div>';
         }  
-
-
-if (isset($_POST['actionType'])) {
-  switch ($_POST['actionType']) {
-    case "Add":
-      insertCourse($_POST['pName'], $_POST['pDescription']);
-      break;
-    // Add more cases here if needed
-  }
+}
 }
 
 $students = selectStudents();
