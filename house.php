@@ -5,7 +5,7 @@ require_once("model-house.php");
 $pageTitle = "House";
 if (isset($_POST['actionType'])) {
   switch ($_POST['actionType']) {
-    case "Add":
+    case "Display":
       if(selectStudentsByHouse($_POST['hid']))
       {
         echo '<div class="alert alert-success" role="alert"> Student successfully displayed!</div>';
