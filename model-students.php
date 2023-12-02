@@ -25,6 +25,19 @@ function insertStudent($sName, $sClass, $sHouse) {
         throw $e;
     }
 }
+function updatePatients($sName, $sClass, $sHouse, $sid) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("update `student`set `student_name`=?, `student_class` = ?, `house_id`=? where student_id=?");
+        $stmt->bind_param("ssii", $sName, $sClass, $sHouse, $sid);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
 function deleteStudent($sid) {
     try {
         $conn = get_db_connection();
