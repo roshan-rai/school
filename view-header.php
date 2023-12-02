@@ -169,21 +169,21 @@ li {
     </section>
     
 <section id="student" style="background-color: #eee;">
-        <h2>Student</h2>
+        <h1>Student</h1>
         <?php
             include "students.php";
         ?>
     </section>
 
         <section id="award" style="background-color: #eee;">
-        <h2>Award</h2>
+        <h1>Award</h1>
          <?php
             include "awards.php";
         ?>
     </section>
     
       <section id="house" style="background-color: #eee;">
-        <h2>House</h2>
+        <h1>House</h1>
          <?php
             include "house.php";
         ?>
