@@ -1,9 +1,8 @@
 <?php
 require_once("util-db.php");
-require_once("model-students-with-awards.php");
+require_once("model-house.php");
 
-$pageTitle = "Students";
-include "view-header.php";
+$pageTitle = "House";
 if (isset($_POST['actionType'])) {
   switch ($_POST['actionType']) {
     case "Add":
@@ -36,8 +35,7 @@ if (isset($_POST['actionType'])) {
         }  
   }
 }
-$students = selectStudents();
+!--$students = selectHouse();--!
 
-include "view-students-with-awards.php";
-include "view-footer.php";
+include "view-house.php";
 ?>
