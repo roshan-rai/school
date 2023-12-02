@@ -30,7 +30,7 @@ include "view-students-newform.php";
                     <td>
                       <?php echo $student['student_class'];?></td>
                     </td>
-                      <?php echo $student['house_id'];?></td>
+                      <?php echo $student['house_name'];?></td>
                     </td>
     <td>
       <form method="post" action="">
