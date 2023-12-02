@@ -27,7 +27,7 @@
             </div>
           
               <div class="mb-3">
-              <label for="hid<?php echo $student['student_id']; ?>" class="form-label">House</label>
+              <label for="shouse<?php echo $student['student_id']; ?>" class="form-label">House</label>
                  <?php $houseList=selectHousesForInput(); 
                         $selectedHouse = $student['house_id'];
                   include "view-house-input-list.php"; ?>
