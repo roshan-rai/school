@@ -23,7 +23,7 @@
                     <td>
                       <?php echo $student['student_class'];?></td>
                     </td>
-                    <td><a href="awards-by-student.php?id=<?php echo $student['student_id'];?>">Awards</a></td>
+                    <td><a href="house.php?id=<?php echo $student['student_id'];?>">House</a></td>
                   </tr>
                   
                 <?php
