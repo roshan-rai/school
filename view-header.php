@@ -171,6 +171,14 @@ li {
                 document.getElementById(hash).scrollIntoView();
             }
         });
+
+        document.addEventListener('DOMContentLoaded', function () {
+            // Toggle the visibility of the additional section
+            document.getElementById('toggleButton').addEventListener('click', function () {
+                var additionalSection = document.getElementById('student-by-houseSection');
+                additionalSection.style.display = (additionalSection.style.display === 'none') ? 'block' : 'none';
+            });
+        });
     </script>
 </head>
 
@@ -231,7 +239,12 @@ li {
             include "house.php";
         ?>
     </section>
-    
+    <section id="student-by-houseSection" style="background-color: #eee;">
+        <h1>Student By House</h1>
+         <?php
+            include "students-by-house.php";
+        ?>
+    </section>
 
 
   
