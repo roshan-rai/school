@@ -17,7 +17,7 @@
                   <tr>
                     <td><?php echo $student['student_id'];?></td>
                     <td><?php echo $student['student_name'];?></td>
-                    <td> <?php echo $student['student_Class'];?></td>
+                    <td> <?php echo $student['student_class'];?></td>
                   </tr>                  
                 <?php
               }
