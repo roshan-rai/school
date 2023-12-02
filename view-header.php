@@ -100,7 +100,7 @@ li {
 
         /* Placeholder content for scrolling */
         section {
-            height: 650px; /* Common height for placeholder content */
+            height: auto; /* Common height for placeholder content */
             display: flex;
             justify-content: center;
             align-items: center;
