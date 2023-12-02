@@ -51,4 +51,17 @@ function deleteStudent($sid) {
         throw $e;
     }
 }
+function selectHousesForInput(){
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("SELECT house_id, house_name FROM `house` order by house_name ");
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $conn->close();
+        return $result;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
 ?>
