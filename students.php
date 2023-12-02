@@ -25,9 +25,9 @@ if (isset($_POST['actionType'])) {
       }
       break;
         case "Delete":
-      if (deletePatients($_POST['pid'])) 
+      if (deleteStudent($_POST['sid'])) 
       {
-            echo '<div class="alert alert-success" role="alert"> Patient successfully deleted!</div>';
+            echo '<div class="alert alert-success" role="alert"> Student successfully deleted!</div>';
         } 
       else {
     echo '<div class="alert alert-danger" role="alert"> Error</div>';
