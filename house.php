@@ -35,6 +35,6 @@ if (isset($_POST['actionType'])) {
         }  
   }
 }
-
+$houses = selectHouses();
 include "view-house.php";
 ?>
