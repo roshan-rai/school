@@ -28,6 +28,13 @@
             <div class="mb-3">
               <label for="sHouse<?php echo $student['student_id']; ?>" class="form-label">House</label>
               <input type="text" class="form-control" id="sHouse<?php echo $student['student_id']; ?>" name="sHouse" value="<?php echo $student['house_name']; ?>">
+            
+            </div>
+              <div class="mb-3">
+              <label for="hid<?php echo $student['student_id']; ?>" class="form-label">House</label>
+                 <?php $houseList=selectHousesForInput(); 
+                        $selectedHouse = $student['house_id'];
+                  include "view-house-input-list.php"; ?>
             </div>
                 <input type="hidden" name="sid" value="<?php echo $student['student_id']; ?>">
                 <input type="hidden" name="actionType" value="Edit">
