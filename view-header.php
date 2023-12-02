@@ -174,7 +174,7 @@ li {
 
         document.addEventListener('DOMContentLoaded', function () {
             // Toggle the visibility of the additional section
-            document.getElementById('toggleButton').addEventListener('click', function () {
+            document.getElementById('studentByHousebtn').addEventListener('click', function () {
                 var additionalSection = document.getElementById('student-by-houseSection');
                 additionalSection.style.display = (additionalSection.style.display === 'none') ? 'block' : 'none';
             });
