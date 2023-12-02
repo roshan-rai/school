@@ -1,39 +1,18 @@
 <h1>Houses</h1>
-<div class="table-responsive">
-  <table class="table">
-    <thead>
-      <tr>
-         <th>ID</th>
-      <th>Name</th>
-      <th>Captain</th>
-         <th>Color</th>
-          <th></th>
-      </tr>
-     
-    </thead>
-      <tbody>
-        <?php
-            while ($house = $houses-> fetch_assoc())
-              {
-                ?>
-                  <tr>
-                    <td><?php echo $house['house_id'];?></td>
-                    <td>
-                      <?php echo $house['house_name'];?></td>
-                    </td>
-                    <td>
-                      <?php echo $house['house_captain'];?></td>
-                    </td>
-                     <td>
-                      <?php echo $house['house_color'];?></td>
-                    </td>
-                    <td><a href="house.php?id=<?php echo $house['house_id'];?>">Students</a></td>
-                  </tr>
-                  
-                <?php
-              }
-        ?>
-      </tbody>
-    
-  </table>
+
+<div class="card-deck">
+    <?php
+    while ($house = $houses->fetch_assoc()) {
+    ?>
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title"><?php echo $house['house_name']; ?></h5>
+                <p class="card-text">Captain: <?php echo $house['house_captain']; ?></p>
+                <p class="card-text">Color: <?php echo $house['house_color']; ?></p>
+                <a href="house.php?id=<?php echo $house['house_id']; ?>" class="btn btn-primary">Students</a>
+            </div>
+        </div>
+    <?php
+    }
+    ?>
 </div>
