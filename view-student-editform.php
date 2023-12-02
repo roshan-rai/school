@@ -27,7 +27,7 @@
             </div>
             <div class="mb-3">
               <label for="sHouse<?php echo $student['student_id']; ?>" class="form-label">House</label>
-              <input type="text" class="form-control" id="sHouse<?php echo $student['student_id']; ?>" name="sHouse" value="<?php echo $student['house_id']; ?>">
+              <input type="text" class="form-control" id="sHouse<?php echo $student['student_id']; ?>" name="sHouse" value="<?php echo $student['house_name']; ?>">
             </div>
                 <input type="hidden" name="sid" value="<?php echo $student['student_id']; ?>">
                 <input type="hidden" name="actionType" value="Edit">
