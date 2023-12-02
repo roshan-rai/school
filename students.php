@@ -5,9 +5,9 @@ require_once("model-students.php");
 if (isset($_POST['actionType'])) {
   switch ($_POST['actionType']) {
     case "Add":
-      if(insertStudents($_POST['sName'], $_POST['sClass'],$_POST['hid']))
+      if(insertStudent($_POST['sName'], $_POST['sClass'],$_POST['sHouse']))
       {
-        echo '<div class="alert alert-success" role="alert"> Students successfully added!</div>';
+        echo '<div class="alert alert-success" role="alert"> Student successfully added!</div>';
       }
       else
       {
