@@ -1,4 +1,4 @@
-<select class="form-select" id="hid" name="hid">
+<select class="form-select" id="sHouse" name="sHouse">
 <?php while ($houseItem = $houseList->fetch_assoc()) { 
     $selText="";
     if($selectedHouse==$houseItem['house_id'])
