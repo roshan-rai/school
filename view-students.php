@@ -12,6 +12,8 @@ include "view-students-newform.php";
       <th>Name</th>
       <th>Class</th>
          <th></th>
+                 <th></th>
+                 <th></th>
       </tr>
      
     </thead>
@@ -29,7 +31,9 @@ include "view-students-newform.php";
                       <?php echo $student['student_class'];?></td>
                     </td>
                     <td><a href="house.php?id=<?php echo $student['student_id'];?>">House</a>
-                    <form method="post" action="">
+                    </td>
+    <td>
+      <form method="post" action="">
                         <input type="hidden" name="sid" value="<?php echo $student['student_id'];?>"/>
                         <input type="hidden" name="actionType" value="Delete">
                             <button type="submit" class="btn btn-primary" onClick="return confirm('Are you sure ?')">
@@ -38,10 +42,12 @@ include "view-students-newform.php";
                                 <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1v1ZM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4H4.118ZM2.5 3h11V2h-11v1Z"/>
                               </svg>
                           </form>
+    </td>
+                              <td>                       
                               <?php
                       include "view-student-editform.php";
                       ?>
-                    </td>
+                              </td>
                   </tr>
                   
                 <?php
