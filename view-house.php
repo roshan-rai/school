@@ -13,6 +13,12 @@
                 <p class="card-text">Captain: <?php echo $house['house_captain']; ?></p>
                 <p class="card-text">Color: <?php echo $house['house_color']; ?></p>
                 <a href="house.php?id=<?php echo $house['house_id']; ?>" class="btn btn-primary">Students</a>
+                   <div>
+                        <form method="post" action="students-by-house.php">
+                        <input type="hidden" name="hid" value="<?php echo $house['house_id'];?>"/>
+                        <button type="submit" class="btn btn-primary">Students</button>
+                        </form>
+                    </div>
   </div>
 </div>
     <?php
