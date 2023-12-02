@@ -13,8 +13,9 @@
                     <p class="card-text">Captain: <?php echo $house['house_captain']; ?></p>
                     <p class="card-text">Color: <?php echo $house['house_color']; ?></p>
                     <div>
-                        <form method="post" action="students-by-house.php">
+                        <form method="post" action="">
                             <input type="hidden" name="hid" value="<?php echo $house['house_id']; ?>" />
+                            <input type="hidden" name="actionType" value="Display">
                             <button type="submit" class="btn btn-primary" id="studentsBtn">StudentsOld</button>
                             <button type="button" class="btn btn-primary" id="liveToastBtn">Students</button>
                         </form>
