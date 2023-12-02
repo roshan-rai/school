@@ -145,7 +145,7 @@ li {
 
 <body>
 
-    <div class = "container">
+
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Navbar</a>
@@ -172,6 +172,7 @@ li {
       </ul>
     </div>
   </div>
+      </nav>
     <!-- Header Container with Logo and School Name -->
     <div class="header-container">
         <img src="hogwartsLogo.png" alt="School Logo" class="school-logo">
