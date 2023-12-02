@@ -12,4 +12,17 @@ function selectStudents() {
         throw $e;
     }
 }
+function insertStudent($sName, $sClass, $sHouse) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("INSERT INTO `student` (`student_name`, `student_class`, `house_id`) VALUES (?,?,?)");
+        $stmt->bind_param("ssi", $sName, $sClass, $sHouse);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
 ?>
