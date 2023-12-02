@@ -30,6 +30,12 @@
             </div>
         </div>
     </div>
+    <script>
+        // Automatically submit the form when the accordion is expanded
+        $('#flush-collapseOne<?php echo $house['house_id']; ?>').on('show.bs.collapse', function () {
+            $('#houseForm<?php echo $house['house_id']; ?>').submit();
+        });
+    </script>
     <?php
     }
     ?>
