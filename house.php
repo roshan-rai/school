@@ -6,7 +6,7 @@ $pageTitle = "House";
 if (isset($_POST['actionType'])) {
   switch ($_POST['actionType']) {
     case "Add":
-      if(insertStudent($_POST['sName'], $_POST['sClass'],$_POST['sHouse']))
+      if(selectStudentsByHouse($_POST['hid']))
       {
         echo '<div class="alert alert-success" role="alert"> Student successfully displayed!</div>';
       }
