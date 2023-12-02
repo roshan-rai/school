@@ -1,5 +1,6 @@
 <?php
-function selectStudentByHouse($hid) {
+
+function selectStudentsByHouse($hid) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("SELECT s.student_name,s.student_id,s.student_class,h.house_name FROM `student` s join house h on s.house_id=h.house_id where s.house_id=?");
