@@ -35,7 +35,6 @@ if (isset($_POST['actionType'])) {
         }  
   }
 }
-!--$students = selectHouse();--!
 
 include "view-house.php";
 ?>
