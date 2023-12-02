@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hogwarts School</title>
+      <div class="search-bar">
+        <form class="d-flex" role="search">
+            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </div>
     <style>
         
 header {
@@ -127,6 +133,11 @@ li {
             width: 100%;
             transition: background-color 0.3s ease; /* Add a smooth transition effect */
         }
+        modal-title {
+            margin-bottom: 0;
+            line-height: 1.5;
+            color: black;
+        }
         
     </style>
 </head>
@@ -192,12 +203,7 @@ li {
 
 
     <!-- Search Bar -->
-    <div class="search-bar">
-        <form class="d-flex" role="search">
-            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </div>
+  
 </body>
 
 </html>
