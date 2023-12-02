@@ -144,22 +144,36 @@ li {
 </head>
 
 <body>
-    <!-- Navigation Bar -->
-    <header>
-    <nav class="nav-item">
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li> <a href="#admissions">Admissions</a></li>
-                <li><a href="#student">Student</a></li>
-                <li><a href="#house">House</a></li>
-                <li><a href="#award">Award</a></li>
-            </ul>
-        </nav>
-    </header>
 
+    <div class = "container">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#admissions">Admissions</a>
+        </li>
+             <li class="nav-item">
+          <a class="nav-link" href="#student">Student</a>
+        </li>
+             <li class="nav-item">
+          <a class="nav-link" href="#house">Student</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="#award">Award</a>
+        </li>
+      </ul>
+    </div>
+  </div>
     <!-- Header Container with Logo and School Name -->
     <div class="header-container">
-        <!-- Replace 'logo.png' with your actual logo file -->
         <img src="hogwartsLogo.png" alt="School Logo" class="school-logo">
         <h1>Hogwarts School</h1>
     </div>
