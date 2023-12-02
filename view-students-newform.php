@@ -25,9 +25,11 @@
               <label for="sClass" class="form-label">Student Class</label>
               <input type="text" class="form-control" id="sClass" name="sClass">
             </div>
-             <div class="mb-3">
-              <label for="sHouse" class="form-label">House</label>
-              <input type="text" class="form-control" id="sHouse" name="sHouse">
+              <div class="mb-3">
+              <label for="sHouse<?php echo $student['student_id']; ?>" class="form-label">House</label>
+                 <?php $houseList=selectHousesForInput(); 
+                        $selectedHouse = $student['house_id'];
+                  include "view-house-input-list.php"; ?>
             </div>
                 <input type="hidden" name="actionType" value="Add">
             <button type="submit" class="btn btn-primary">Save</button>
