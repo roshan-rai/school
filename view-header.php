@@ -133,7 +133,7 @@ li {
             width: 100%;
             transition: background-color 0.3s ease; /* Add a smooth transition effect */
         }
-        modal-title {
+        .modal-title {
             margin-bottom: 0;
             line-height: 1.5;
             color: black;
@@ -202,7 +202,6 @@ li {
     
 
 
-    <!-- Search Bar -->
   
 </body>
 
