@@ -138,11 +138,7 @@ li {
             line-height: 1.5;
             color: black;
         }
-        .modal-header .btn-close {
-    padding: calc(var(--bs-modal-header-padding-y) * .5) calc(var(--bs-modal-header-padding-x) * .5);
-    margin: calc(-.5 * var(--bs-modal-header-padding-y)) calc(-.5 * var(--bs-modal-header-padding-x)) calc(-.5 * var(--bs-modal-header-padding-y)) auto;
-        }
-        
+   
     </style>
 </head>
 
