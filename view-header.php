@@ -160,6 +160,18 @@ li {
     transition: var(--bs-navbar-toggler-transition);
 }
     </style>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Extract the hash from the URL (e.g., #house)
+            var hash = window.location.hash.substring(1);
+
+            // Check if the hash is not empty and the corresponding section exists
+            if (hash && document.getElementById(hash)) {
+                // Scroll to the section with the specified hash
+                document.getElementById(hash).scrollIntoView();
+            }
+        });
+    </script>
 </head>
 
 <body>
