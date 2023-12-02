@@ -25,7 +25,7 @@ function insertStudent($sName, $sClass, $sHouse) {
         throw $e;
     }
 }
-function updatePatients($sName, $sClass, $sHouse, $sid) {
+function updateStudent($sName, $sClass, $sHouse, $sid) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("update `student`set `student_name`=?, `student_class` = ?, `house_id`=? where student_id=?");
