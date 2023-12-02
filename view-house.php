@@ -1,10 +1,11 @@
+
+
 <h1>Houses</h1>
 
 <div class="card-deck">
     <?php
     while ($house = $houses->fetch_assoc()) {
     ?>
- 
 
     <div class="card" style="width: 18rem;">
         <img src="aboutimage.jpg" class="card-img-top" alt="...">
@@ -21,7 +22,7 @@
                     </h2>
                     <div id="flush-collapseOne<?php echo $house['house_id']; ?>" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample<?php echo $house['house_id']; ?>">
                         <div class="accordion-body">
-                            <form method="post" action="students-by-house.php">
+                            <form id="houseForm<?php echo $house['house_id']; ?>" method="post" action="students-by-house.php">
                                 <input type="hidden" name="hid" value="<?php echo $house['house_id']; ?>"/>
                             </form>
                         </div>
@@ -30,12 +31,14 @@
             </div>
         </div>
     </div>
+
     <script>
         // Automatically submit the form when the accordion is expanded
         $('#flush-collapseOne<?php echo $house['house_id']; ?>').on('show.bs.collapse', function () {
             $('#houseForm<?php echo $house['house_id']; ?>').submit();
         });
     </script>
+
     <?php
     }
     ?>
