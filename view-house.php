@@ -16,7 +16,9 @@
            <div>
                 <form method="post" action="students-by-house.php">
                 <input type="hidden" name="hid" value="<?php echo $house['house_id'];?>"/>
-                <button id="studentByHousebtn" type="submit" class="btn btn-primary">Students</button>
+                <button id="studentByHousebtn" type="submit" class="btn btn-primary">StudentsOld</button>
+                <button type="button" class="btn btn-primary" id="liveToastBtn">Students</button>
+
                 </form>
             </div>
         </div>
