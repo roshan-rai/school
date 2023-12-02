@@ -2,7 +2,7 @@
 function selectStudents() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT student_id, student_name, student_class,house_name FROM `student` s join house h on h.house_id=s.house_id ");
+        $stmt = $conn->prepare("SELECT student_id, student_name, student_class,house_name,s.house_id FROM `student` s join house h on h.house_id=s.house_id ");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
