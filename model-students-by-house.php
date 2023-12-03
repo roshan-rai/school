@@ -17,7 +17,7 @@ function selectStudentsByHouse($hid) {
 function selectHouse($hid) {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("$stmt = $conn->prepare("SELECT h.house_name FROM `student` s JOIN house h ON s.house_id = h.house_id WHERE s.house_id = ? LIMIT 1");");
+        $stmt = $conn->prepare("SELECT h.house_name FROM `student` s JOIN house h ON s.house_id = h.house_id WHERE s.house_id = ? LIMIT 1;");
         $stmt->bind_param("i", $hid);
         $stmt->execute();
         $result = $stmt->get_result();
