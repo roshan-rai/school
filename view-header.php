@@ -10,12 +10,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-b0vqNz+khPQDCIjOFq2xlFgZwN9A3/AgWFsqBxSxFfZVCX+/GOOq5EmzXfJom6Te" crossorigin="anonymous"></script>
 
     <title>Hogwarts School</title>
-      <div class="search-bar">
-        <form class="d-flex" role="search">
-            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </div>
+    
     <style>
         
 header {
@@ -238,6 +233,13 @@ li {
                 <li><a href="#student">Student</a></li>
                 <li><a href="#house">House</a></li>
                 <li><a href="#award">Award</a></li>
+                <li><div class="search-bar">
+                <form class="d-flex" role="search">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+    </div>
+</li>
             </ul>
         </nav>
     </header>
