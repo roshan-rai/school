@@ -168,6 +168,9 @@ li {
             color: black;
             text-align: center;
         }
+        .like {
+            cursor: pointer;
+        }
     </style>
     <script>
         const toastTrigger = document.getElementById('liveToastBtn')
