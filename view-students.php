@@ -1,3 +1,4 @@
+<h1>Students</h1>
 <div class="col-auto"> 
   <?php
     include "view-students-newform.php";
