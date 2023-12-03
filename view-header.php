@@ -20,13 +20,13 @@ header {
     align-items: center;
 }
         .countdown-timer {
-            position: fixed;
-            bottom: 10px;
-            right: 10px;
-            background-color: #f0f0f0;
-            padding: 10px;
-            border-radius: 5px;
-        }
+    position: fixed;
+    bottom: 28px;
+    right: 10px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
 
 nav {
     background: rgba(255, 255, 255, 0.8);
