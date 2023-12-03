@@ -69,4 +69,18 @@
         // Update likes count on the page
         likesCountElement.innerText = currentLikes;
     }
+
+    function handleComment(formElement) {
+        const houseId = formElement.getAttribute('data-house-id');
+        const commentTextarea = formElement.querySelector('textarea');
+        const commentsContainer = document.getElementById(`comments-container-${houseId}`);
+
+        // Simulate adding a new comment
+        const newComment = document.createElement('div');
+        newComment.textContent = commentTextarea.value;
+        commentsContainer.appendChild(newComment);
+
+        // Clear the comment textarea
+        commentTextarea.value = '';
+    }
 </script>
