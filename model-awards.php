@@ -13,4 +13,17 @@ function selectAwards() {
         throw $e;
     }
 }
+function insertAward($aName $sHouse) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("INSERT INTO `award` (`award_name`, `house_id`) VALUES (?,?)");
+        $stmt->bind_param("si", $aName, $sHouse);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
 ?>
