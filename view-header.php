@@ -184,6 +184,12 @@ li {
                 document.getElementById(hash).scrollIntoView();
             }
         });
+        document.addEventListener("DOMContentLoaded", function() {
+            var section = document.getElementById("students-by-house");
+
+            // Scroll to the section smoothly
+            section.scrollIntoView({ behavior: 'smooth' });
+        });
     </script>
 </head>
 
