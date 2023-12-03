@@ -5,6 +5,7 @@ include "view-header.php";
 
 $pageTitle = "Student By House";
 $students = selectStudentsByHouse($_POST['hid']);
+$houses = selectHouse($_POST['hid']);
 include "view-students-by-house.php";
 include "view-footer.php";
 ?>
