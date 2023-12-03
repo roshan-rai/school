@@ -13,7 +13,7 @@ function selectAwards() {
         throw $e;
     }
 }
-function insertAward($aName $sHouse) {
+function insertAward($aName, $sHouse) {
     try {
         $conn = get_db_connection();
         $stmt = $conn->prepare("INSERT INTO `award` (`award_name`, `house_id`) VALUES (?,?)");
