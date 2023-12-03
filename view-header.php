@@ -249,7 +249,7 @@ li {
             const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-            const formattedTime = `${formatTime(days)}D:{formatTime(hours)}H:${formatTime(minutes)}M:${formatTime(seconds)}S Left`;
+    const formattedTime = `${days}d ${formatTime(hours)}h:${formatTime(minutes)}m:${formatTime(seconds)}s left`;
 
             document.getElementById('countdown-timer').innerText = formattedTime;
 
