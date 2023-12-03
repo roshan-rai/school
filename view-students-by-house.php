@@ -1,4 +1,7 @@
 <section id="students-by-house" style="background-color: #eee;">
+ <?php
+$house = $houses->fetch_assoc();
+?>
  <h1>Students for <?php echo $house['house_name']; ?></h1>
  <div class="table-responsive">
   <table class="table">
