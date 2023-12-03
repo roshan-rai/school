@@ -1,5 +1,5 @@
 <section id="students-by-house" style="background-color: #eee;">
- <h1>Students for <?php echo house['house_name'];?></h1>
+ <h1>Students for <?php echo $house['house_name']; ?></h1>
  <div class="table-responsive">
   <table class="table">
     <thead>
