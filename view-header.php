@@ -237,7 +237,7 @@ li {
     </section>
     <div class="countdown-timer" id="countdown-timer"></div>
  <script>
-       const targetDate = new Date('2023-12-31T23:59:59');
+       const targetDate = new Date('2023-12-14T23:59:59');
 
     function updateTimer() {
         const now = new Date();
