@@ -222,30 +222,24 @@ li {
     </section>
 
     <section id="admissions" style="background-color: #eee;">
-        <h2>
-            
-        </h2>
          <?php
             include "admissions.php";
         ?>
     </section>
     
 <section id="student" style="background-color: #eee;">
-        <h1>Student</h1>
         <?php
             include "students.php";
         ?>
     </section>
 
         <section id="award" style="background-color: #eee;">
-        <h1>Award</h1>
          <?php
             include "awards.php";
         ?>
     </section>
     
       <section id="house" style="background-color: #eee;">
-        <h1>House</h1>
          <?php
             include "house.php";
         ?>
