@@ -163,6 +163,11 @@ li {
     border-radius: var(--bs-navbar-toggler-border-radius);
     transition: var(--bs-navbar-toggler-transition);
 }
+        section h1{
+            font-size: 2.5rem;
+            color: black;
+            text-align: center;
+        }
     </style>
     <script>
         const toastTrigger = document.getElementById('liveToastBtn')
