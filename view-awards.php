@@ -23,7 +23,7 @@
                     <td>
                       <?php echo $award['house_name'];?></td>
                     </td>
-                    <td><a href="awards-by-house.php?id=<?php echo $award['award_id'];?>">Awards</a></td>
+                   
                   </tr>
                   
                 <?php
