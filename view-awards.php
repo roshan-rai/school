@@ -6,7 +6,7 @@
          <th>Award Id</th>
       <th>Name</th>
       <th>House</th>
-         <th></th>
+      
       </tr>
      
     </thead>
