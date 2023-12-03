@@ -1,4 +1,4 @@
-
+<section id="students-by-house" style="background-color: #eee;">
  <div class="table-responsive">
   <table class="table">
     <thead>
@@ -25,3 +25,5 @@
       </tbody>    
   </table>
 </div>
+</section>
+
