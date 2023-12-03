@@ -1,4 +1,10 @@
 <h1>Awards</h1>
+<div class="col-auto"> 
+  <?php
+    include "view-award-newform.php";
+  ?>
+</div>
+
 <div class="table-responsive">
   <table class="table">
     <thead>
