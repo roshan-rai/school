@@ -24,6 +24,14 @@ header {
     display: flex;
     align-items: center;
 }
+        .countdown-timer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+        }
 
 nav {
     background: rgba(255, 255, 255, 0.8);
@@ -173,15 +181,33 @@ li {
         }
     </style>
     <script>
-        const toastTrigger = document.getElementById('liveToastBtn')
-        const toastLiveExample = document.getElementById('liveToast')
-        
-        if (toastTrigger) {
-          const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
-          toastTrigger.addEventListener('click', () => {
-            toastBootstrap.show()
-          })
+       const targetDate = new Date('2023-12-31T23:59:59');
+
+    function updateTimer() {
+        const now = new Date();
+        const timeDifference = targetDate - now;
+
+        if (timeDifference > 0) {
+            const hours = Math.floor(timeDifference / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+            const formattedTime = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
+
+            document.getElementById('countdown-timer').innerText = formattedTime;
+
+            setTimeout(updateTimer, 1000);
+        } else {
+            document.getElementById('countdown-timer').innerText = 'Timer Expired';
         }
+    }
+
+    function formatTime(time) {
+        return time < 10 ? `0${time}` : time;
+    }
+
+    // Initial call to start the timer
+    updateTimer();
         document.addEventListener('DOMContentLoaded', function () {
             // Extract the hash from the URL (e.g., #house)
             var hash = window.location.hash.substring(1);
@@ -252,6 +278,8 @@ li {
             include "house.php";
         ?>
     </section>
+    <div class="countdown-timer" id="countdown-timer"></div>
+
 </body>
 
 </html>
