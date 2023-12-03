@@ -1,5 +1,9 @@
-<h1>Awards</h1>
-<div class="col-auto"> 
+<div class="row">
+  <div class="col">
+    <h1>Awards</h1>
+</div>
+  <div class="col-auto"> 
+
   <?php
     include "view-award-newform.php";
   ?>
