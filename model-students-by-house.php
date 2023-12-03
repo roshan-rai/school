@@ -14,4 +14,18 @@ function selectStudentsByHouse($hid) {
         throw $e;
     }
 }
+function selectHouse($hid) {
+    try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("SELECT Top 1 h.house_name FROM `student` s join house h on s.house_id=h.house_id where s.house_id=?");
+        $stmt->bind_param("i", $hid);
+        $stmt->execute();
+        $result = $stmt->get_result();
+        $conn->close();
+        return $result;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
 ?>
