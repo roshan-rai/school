@@ -244,11 +244,12 @@ li {
         const timeDifference = targetDate - now;
 
         if (timeDifference > 0) {
+           const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
             const hours = Math.floor(timeDifference / (1000 * 60 * 60));
             const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
             const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-            const formattedTime = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
+            const formattedTime = `${formatTime(days)}D:{formatTime(hours)}H:${formatTime(minutes)}M:${formatTime(seconds)}S Left`;
 
             document.getElementById('countdown-timer').innerText = formattedTime;
 
