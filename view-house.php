@@ -12,6 +12,13 @@
                 <p class="card-text">Captain: <?php echo $house['house_captain']; ?></p>
                 <p class="card-text">Color: <?php echo $house['house_color']; ?></p>
 
+                <div>
+                    <form method="post" action="students-by-house.php">
+                        <input type="hidden" name="hid" value="<?php echo $house['house_id']; ?>" />
+                        <button type="submit" class="btn btn-primary" id="liveToastBtn">Students</button>
+                    </form>
+                </div>
+                
                 <!-- Like Section -->
                 <div>
                     <span class="like" data-action="upvote" data-house-id="<?php echo $house['house_id']; ?>">👍</span>
@@ -36,12 +43,7 @@
                     </div>
                 </div>
 
-                <div>
-                    <form method="post" action="students-by-house.php">
-                        <input type="hidden" name="hid" value="<?php echo $house['house_id']; ?>" />
-                        <button type="submit" class="btn btn-primary" id="liveToastBtn">Students</button>
-                    </form>
-                </div>
+                
             </div>
         </div>
 
