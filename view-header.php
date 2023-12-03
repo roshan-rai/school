@@ -175,51 +175,7 @@ li {
             cursor: pointer;
         }
     </style>
-    <script>
-       const targetDate = new Date('2023-12-31T23:59:59');
-
-    function updateTimer() {
-        const now = new Date();
-        const timeDifference = targetDate - now;
-
-        if (timeDifference > 0) {
-            const hours = Math.floor(timeDifference / (1000 * 60 * 60));
-            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
-            const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
-
-            const formattedTime = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
-
-            document.getElementById('countdown-timer').innerText = formattedTime;
-
-            setTimeout(updateTimer, 1000);
-        } else {
-            document.getElementById('countdown-timer').innerText = 'Timer Expired';
-        }
-    }
-
-    function formatTime(time) {
-        return time < 10 ? `0${time}` : time;
-    }
-
-    // Initial call to start the timer
-    updateTimer();
-        document.addEventListener('DOMContentLoaded', function () {
-            // Extract the hash from the URL (e.g., #house)
-            var hash = window.location.hash.substring(1);
-
-            // Check if the hash is not empty and the corresponding section exists
-            if (hash && document.getElementById(hash)) {
-                // Scroll to the section with the specified hash
-                document.getElementById(hash).scrollIntoView();
-            }
-        });
-        document.addEventListener("DOMContentLoaded", function() {
-            var section = document.getElementById("students-by-house");
-
-            // Scroll to the section smoothly
-            section.scrollIntoView({ behavior: 'smooth' });
-        });
-    </script>
+   
 </head>
 
 <body>
@@ -280,7 +236,51 @@ li {
         ?>
     </section>
     <div class="countdown-timer" id="countdown-timer"></div>
+ <script>
+       const targetDate = new Date('2023-12-31T23:59:59');
 
+    function updateTimer() {
+        const now = new Date();
+        const timeDifference = targetDate - now;
+
+        if (timeDifference > 0) {
+            const hours = Math.floor(timeDifference / (1000 * 60 * 60));
+            const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
+
+            const formattedTime = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
+
+            document.getElementById('countdown-timer').innerText = formattedTime;
+
+            setTimeout(updateTimer, 1000);
+        } else {
+            document.getElementById('countdown-timer').innerText = 'Timer Expired';
+        }
+    }
+
+    function formatTime(time) {
+        return time < 10 ? `0${time}` : time;
+    }
+
+    // Initial call to start the timer
+    updateTimer();
+        document.addEventListener('DOMContentLoaded', function () {
+            // Extract the hash from the URL (e.g., #house)
+            var hash = window.location.hash.substring(1);
+
+            // Check if the hash is not empty and the corresponding section exists
+            if (hash && document.getElementById(hash)) {
+                // Scroll to the section with the specified hash
+                document.getElementById(hash).scrollIntoView();
+            }
+        });
+        document.addEventListener("DOMContentLoaded", function() {
+            var section = document.getElementById("students-by-house");
+
+            // Scroll to the section smoothly
+            section.scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
 </body>
 
 </html>
