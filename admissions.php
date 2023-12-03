@@ -36,7 +36,7 @@
                             </ul>
                         </p>
                         <!-- Apply Button -->
-                        <a href="apply.php" class="btn btn-primary">Apply Now</a>
+                        <a href="apply-form.php" class="btn btn-primary">Apply Now</a>
                     </td>
                     <td>
                         <!-- my professional -->
