@@ -189,14 +189,17 @@ li {
                 <li><a href="#student">Student</a></li>
                 <li><a href="#house">House</a></li>
                 <li><a href="#award">Award</a></li>
+                <li>
+                    <div class="search-bar">
+                        <form class="d-flex" role="search">
+                            <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </li>
             </ul>
         </nav>
-          <div class="search-bar">
-                <form class="d-flex" role="search">
-                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-    </div>
+          
     </header>
     
     <!-- Header Container with Logo and School Name -->
