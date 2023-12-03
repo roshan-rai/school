@@ -20,9 +20,9 @@
                 </div>
                 
                 <!-- Like Section -->
-                <div>
-                    <span class="like" data-action="upvote" data-house-id="<?php echo $house['house_id']; ?>">👍</span>
-                    <span class="like" data-action="downvote" data-house-id="<?php echo $house['house_id']; ?>">👎</span>
+               <div>
+                    <span class="like" data-action="upvote" data-house-id="<?php echo $house['house_id']; ?>" onclick="handleVote(this)">👍</span>
+                    <span class="like" data-action="downvote" data-house-id="<?php echo $house['house_id']; ?>" onclick="handleVote(this)">👎</span>
                     <span class="likes-count" id="likes-count-<?php echo $house['house_id']; ?>">0</span> likes
                 </div>
 
@@ -53,5 +53,20 @@
 </div>
 
 <script>
-    // Add your JavaScript for handling likes and comments here
+    function handleVote(element) {
+        const houseId = element.getAttribute('data-house-id');
+        const action = element.getAttribute('data-action');
+        const likesCountElement = document.getElementById(`likes-count-${houseId}`);
+
+        // Simulate updating likes count
+        let currentLikes = parseInt(likesCountElement.innerText);
+        if (action === 'upvote') {
+            currentLikes++;
+        } else if (action === 'downvote') {
+            currentLikes--;
+        }
+
+        // Update likes count on the page
+        likesCountElement.innerText = currentLikes;
+    }
 </script>
