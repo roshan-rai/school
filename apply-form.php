@@ -1,10 +1,4 @@
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#newStudentModal">
-    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
-        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
-    </svg>
-</button>
+<a href="http://school.roshan.oucreate.com/" class="btn btn-primary btn-lg">Back to Main Page</a>
 
 <!-- Modal -->
 <div class="modal fade" id="newStudentModal" tabindex="-1" aria-labelledby="newStudentModalLabel" aria-hidden="true">
@@ -34,20 +28,15 @@
                         <input type="text" class="form-control" id="sClass" name="sClass" required>
                     </div>
                     <div class="mb-3">
-                        <label for="sDescription" class="form-label">Write in 600 words why you deserve a place in Hogwarts. </label>
-                        <input type="number" class="form-control" id="sDescription" name="sDescription" required>
+                        <label for="sEssay" class="form-label">Write in 600 words why you deserve a place in Hogwarts.</label>
+                        <textarea class="form-control" id="sEssay" name="sEssay" rows="6" required></textarea>
                     </div>
                     <div class="mb-3">
-                        <label for="sHouse" class="form-label">House</label>
-                        <?php
-                        $houseList = selectHousesForInput();
-                        $selectedHouse = 0;
-                        include "view-house-input-list.php";
-                        ?>
+                        <label for="sPreferredHouse" class="form-label">House you prefer to be in</label>
+                        <input type="text" class="form-control" id="sPreferredHouse" name="sPreferredHouse" required>
                     </div>
-
                     <input type="hidden" name="actionType" value="Add">
-                    <button type="submit" class="btn btn-primary">Save</button>
+                    <button type="submit" class="btn btn-success">Submit Form</button>
                 </form>
             </div>
         </div>
