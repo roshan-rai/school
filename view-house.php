@@ -3,10 +3,15 @@
 <div class="card-deck">
     <?php
     while ($house = $houses->fetch_assoc()) {
+        // Concatenate the house name with 'house.jpg' to form the image path
+        $imagePath = strtolower($house['house_name'][0]) . 'ghouse.jpg';
+        $imagePath = strtolower($house['house_name'][0]) . 'hhouse.jpg';
+        $imagePath = strtolower($house['house_name'][0]) . 'shouse.jpg';
+        $imagePath = strtolower($house['house_name'][0]) . 'rhouse.jpg';
     ?>
 
         <div class="card" style="width: 18rem;">
-            <img src="aboutimage.jpg" class="card-img-top" alt="...">
+            <img src="<?php echo $imagePath; ?>" class="card-img-top" alt="House Image">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $house['house_name']; ?></h5>
                 <p class="card-text">Captain: <?php echo $house['house_captain']; ?></p>
@@ -19,11 +24,11 @@
                     </form>
                 </div>
 
-               <div>
+                <div>
                     <span class="like" data-action="upvote" data-house-id="<?php echo $house['house_id']; ?>" onclick="handleVote(this)">👍</span>
                     <span class="like" data-action="downvote" data-house-id="<?php echo $house['house_id']; ?>" onclick="handleVote(this)">👎</span>
                     <span class="likes-count" id="likes-count-<?php echo $house['house_id']; ?>">0</span> Votes
-                </div>           
+                </div>
             </div>
         </div>
 
