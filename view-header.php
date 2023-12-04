@@ -27,7 +27,9 @@ header {
     padding: 10px;
     border-radius: 5px;
 }
-
+.image-holder{
+    background-image: url('giphy.gif');
+}
 nav {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -209,8 +211,7 @@ li {
     </div>
 
     <!-- Placeholder content for scrolling -->
-    <section id="image" style=" background-image: url('giphy.gif');
-">
+    <section id="image-holder">
     </section>
     <section id="about">
         <?php
