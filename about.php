@@ -18,6 +18,13 @@
     li {
       margin-bottom: 10px;
     }
+ 
+    body {
+      margin: 0;
+      font-family: 'Goudy Bookletter 1911', sans-serif;
+      background: url('paperbackground.jpg') center/cover no-repeat; 
+    }
+
   </style>
 
 <h1>About Us</h1>
