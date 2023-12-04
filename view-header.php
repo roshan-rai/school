@@ -209,6 +209,11 @@ li {
     </div>
 
     <!-- Placeholder content for scrolling -->
+    <section id="image">
+        <?php
+            include "about.php";
+        ?>
+    </section>
     <section id="about">
         <?php
             include "about.php";
