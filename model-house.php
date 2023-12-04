@@ -2,7 +2,7 @@
 function selectHouses() {
     try {
         $conn = get_db_connection();
-        $stmt = $conn->prepare("SELECT house_id, house_name, house_captain, house_color FROM `house` ");
+        $stmt = $conn->prepare("SELECT house_id, image, house_name, house_captain, house_color FROM `house` ");
         $stmt->execute();
         $result = $stmt->get_result();
         $conn->close();
