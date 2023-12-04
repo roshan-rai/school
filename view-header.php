@@ -209,10 +209,8 @@ li {
     </div>
 
     <!-- Placeholder content for scrolling -->
-    <section id="image">
-        <?php
-            include "about.php";
-        ?>
+    <section id="image" style=" background-image: url('giphy.gif');
+">
     </section>
     <section id="about">
         <?php
