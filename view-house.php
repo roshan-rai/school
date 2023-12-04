@@ -3,15 +3,10 @@
 <div class="card-deck">
     <?php
     while ($house = $houses->fetch_assoc()) {
-        // Concatenate the house name characters to form the image path
-        $imagePath = strtolower($house['house_name'][0]) . 'ghouse.jpg';
-        $imagePath .= strtolower($house['house_name'][1]) . 'hhouse.jpg';
-        $imagePath .= strtolower($house['house_name'][2]) . 'shouse.jpg';
-        $imagePath .= strtolower($house['house_name'][3]) . 'rhouse.jpg';
     ?>
 
         <div class="card" style="width: 18rem;">
-            <img src="<?php echo $imagePath; ?>" class="card-img-top" alt="House Image">
+            <img src="<?php echo$house['image']; ?>" class="card-img-top" alt="House Image">
             <div class="card-body">
                 <h5 class="card-title"><?php echo $house['house_name']; ?></h5>
                 <p class="card-text">Captain: <?php echo $house['house_captain']; ?></p>
