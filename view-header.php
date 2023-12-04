@@ -27,9 +27,6 @@ header {
     padding: 10px;
     border-radius: 5px;
 }
-.image-holder{
-    background-image: url('giphy.gif');
-}
 nav {
     background: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -176,6 +173,19 @@ li {
         .like {
             cursor: pointer;
         }
+        #image-holder {
+        width: 100vw; /* 100% of the viewport width */
+        height: 100vh; /* 100% of the viewport height */
+        overflow: hidden; /* Hide any overflow */
+        margin: 0; /* Remove default margin */
+        padding: 0; /* Remove default padding */
+    }
+
+    #image-holder img {
+        width: 100%; /* 100% of the parent width (section) */
+        height: 100%; /* 100% of the parent height (section) */
+        object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+    }
     </style>
    
 </head>
@@ -212,8 +222,8 @@ li {
 
     <!-- Placeholder content for scrolling -->
     <section id="image-holder">
-        <img src="giphy.gif"/>
-    </section>
+    <img src="giphy.gif" alt="Full-screen image"/>
+</section>
     <section id="about">
         <?php
             include "about.php";
