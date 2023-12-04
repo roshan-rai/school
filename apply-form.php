@@ -31,6 +31,10 @@
                         <input type="text" class="form-control" id="sClass" name="sClass" required>
                     </div>
                     <div class="mb-3">
+                        <label for="sPreferredHouse" class="form-label">House you prefer to be in</label>
+                        <input type="text" class="form-control" id="sPreferredHouse" name="sPreferredHouse" required>
+                    </div>
+                    <div class="mb-3">
                         <label for="sEssay" class="form-label">Write in 600 words why you deserve a place in Hogwarts.</label>
                         <textarea class="form-control" id="sEssay" name="sEssay" rows="6" required></textarea>
                     </div>
@@ -42,7 +46,6 @@
                     <button type="submit" class="btn btn-success">Submit Form</button>
                 </form>
             </div>
-        </div>
     </div>
 </div>
 
