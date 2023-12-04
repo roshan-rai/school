@@ -1,4 +1,4 @@
-<a href="http://school.roshan.oucreate.com/" class="btn btn-primary btn-lg">Back to Main Page</a>
+<button type="button" class="btn btn-primary btn-lg" onclick="window.location.href='http://school.roshan.oucreate.com/'">Back to Main Page</button>
 
 <!-- Modal -->
 <div class="modal fade" id="newStudentModal" tabindex="-1" aria-labelledby="newStudentModalLabel" aria-hidden="true">
