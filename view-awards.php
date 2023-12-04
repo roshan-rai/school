@@ -14,8 +14,7 @@
         <th>Award Id</th>
         <th>Name</th>
         <th>House</th>
-        <th>Delete</th>
-        <th>Edit</th>
+        <th></th>
       </tr>
     </thead>
     <tbody>
