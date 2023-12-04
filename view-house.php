@@ -3,11 +3,11 @@
 <div class="card-deck">
     <?php
     while ($house = $houses->fetch_assoc()) {
-        // Concatenate the house name with 'house.jpg' to form the image path
+        // Concatenate the house name characters to form the image path
         $imagePath = strtolower($house['house_name'][0]) . 'ghouse.jpg';
-        $imagePath = strtolower($house['house_name'][1]) . 'hhouse.jpg';
-        $imagePath = strtolower($house['house_name'][2]) . 'shouse.jpg';
-        $imagePath = strtolower($house['house_name'][3]) . 'rhouse.jpg';
+        $imagePath .= strtolower($house['house_name'][1]) . 'hhouse.jpg';
+        $imagePath .= strtolower($house['house_name'][2]) . 'shouse.jpg';
+        $imagePath .= strtolower($house['house_name'][3]) . 'rhouse.jpg';
     ?>
 
         <div class="card" style="width: 18rem;">
