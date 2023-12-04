@@ -4,15 +4,6 @@
       padding: 50px 0;
       color: #333; /* Dark gray text color */
     }
-
-    .content {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #fff; /* White background color for content */
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
-    }
-
     p {
       font-size: 18px;
       line-height: 1.6;
