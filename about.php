@@ -2,7 +2,6 @@
   <style>
 
     .background-container {
-      background-image: url('giphy.gif');
       background-size: cover;
       height: 100vh;
       width: 100%; 
