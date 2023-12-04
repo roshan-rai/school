@@ -212,6 +212,7 @@ li {
 
     <!-- Placeholder content for scrolling -->
     <section id="image-holder">
+        <img src="giphy.gif"/>
     </section>
     <section id="about">
         <?php
