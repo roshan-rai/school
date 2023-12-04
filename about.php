@@ -1,33 +1,4 @@
 
-  <style>
-
-    .background-container {
-      background-size: cover;
-      height: 100vh;
-      width: 100%; 
-      position: relative;
-      background-color: rgba(255, 255, 255, 0.8); 
-    }
-
-    .content {
-      width: 50%;
-      padding: 20px;
-      position: absolute;
-      top: 90%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: red; /* Set the text color to white */
-    }
-
-    ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    li {
-      font-size: 20px; /* Adjust the font size as needed */
-    }
-  </style>
   <div class="background-container"></div>
 
   <div class="content">
