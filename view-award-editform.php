@@ -28,7 +28,7 @@
                   include "view-house-input-list.php"; ?>
             </div>
                   <input type="hidden" name="aid" value="<?php echo $award['award_id']; ?>">
-                <input type="hidden" name="actionType" value="AddAward">
+                <input type="hidden" name="actionType" value="EditAward">
             <button type="submit" class="btn btn-primary">Save</button>
           </form>
       </div>
