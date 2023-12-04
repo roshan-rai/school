@@ -46,6 +46,13 @@
     </div>
 </div>
 
+<style>
+    body {
+        background-image: url('paperbackground.jpg');
+        background-size: cover; /* Optional: Adjust based on your design needs */
+    }
+</style>
+            
 <script>
     function submitForm(event) {
         // Prevent the default form submission
