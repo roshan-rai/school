@@ -26,4 +26,18 @@ function insertAward($aName, $sHouse) {
         throw $e;
     }
 }
+function updateAward($aName, $sHouse, $aid) {
+try {
+        $conn = get_db_connection();
+        $stmt = $conn->prepare("update `award`set `award_name`=?, `house_id` = ? where award_id=?");
+        $stmt->bind_param("sii", $aName, $sHouse, $aid);
+        $success = $stmt->execute();
+        $conn->close();
+        return $success;
+    } catch (Exception $e) {
+        $conn->close();
+        throw $e;
+    }
+}
+
 ?>
