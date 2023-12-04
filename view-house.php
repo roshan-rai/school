@@ -1,5 +1,12 @@
 <h1>Houses</h1>
-
+<style>
+    .card-img, .card-img-bottom, .card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 100%;
+    height: 70%;
+}
+</style>
 <div class="card-deck">
     <?php
     while ($house = $houses->fetch_assoc()) {
