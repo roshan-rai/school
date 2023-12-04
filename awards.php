@@ -15,6 +15,16 @@ if (isset($_POST['actionType'])) {
        echo '<div class="alert alert-danger" role="alert"> Error</div>';
       }
       break;  
+    case "EditAward":
+      if(updateAward($_POST['aName'],$_POST['sHouse'],$_POST['aid']))
+      {
+        echo '<div class="alert alert-success" role="alert"> Award successfully edited!</div>';
+      }
+      else
+      {
+       echo '<div class="alert alert-danger" role="alert"> Error</div>';
+      }
+      break;  
 }
 }
 
